@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="OnePage CV réalisé dans le cadre du cours de developpement frontend de la haute école HEH">
+        <meta name="keywords" content= "OnePage, CV, cv, online, en ligne, exemple, Curiculum Vitae, Curiculum, Vitae, une page"/>
+        <meta name="author" content="Arthur Draye">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Curiculum Vitae - Arthur Draye - OnePage Online</title>
+        <link rel="stylesheet" href="styles.css" media="screen">
+        <link rel="stylesheet" href="impression.css" media="print">
+    </head>
+    <body>
+        <div class="page">
+            <div class="first-column-main">
+                <div id="overlay"></div>
+                <figure><img src="img/img_cv_petit.jpg" alt="CV image" class="cv_image"/></figure>
+                   
+                    <div class="personal-info">
+                        &#12342;
+                        Avenue des villas n° 38 Bte A, Ottignies 1340
+                    </div>
+                    <div class="personal-info">
+                        &#9990;
+                        0495799747
+                    </div>
+                    <div class="personal-info">
+                        &#9993;
+                        arthurdraye@gmail.com
+                    </div>
+                    <div class="skill">
+                        <h3>Langues</h3>
+                        Français
+                        <progress value="5" max="5"></progress>
+                        Anglais
+                        <progress value="3" max="5"></progress>
+                    </div>
+                    <div class="hidden-screen"><hr><h2>Langues</h2>Français 5/5 <br> Anglais 3/5 </div>
+                    
+                    <div class="skill">
+                        <h3>Compétences</h3>
+                        Linux
+                        <progress value="4" max="5"></progress>
+                        Réseaux
+                        <progress value="3" max="5"></progress>
+                        Html
+                        <progress value="4" max="5"></progress>
+                        css
+                        <progress value="3" max="5"></progress>
+                        Java
+                        <progress value="2" max="5"></progress>
+                        Python
+                        <progress value="3" max="5"></progress>
+                    </div>
+                    <div class="hidden-screen"><h2>Compétences</h2>linux 4/5 <br> réseau 3/5 <br> html 4/5 <br> css 3/5 <br> java 2/5 <br> Python 3/5 </div>
+                    
+                    <div class="skill">
+                        <h3>Hobbies</h3>
+                        <div class="ico-tri">
+                            <img src="img/ico_dumbbell.ico" alt="Haltère icône" class="ico"/>
+                            <img src="img/ico_piano.ico" alt="Piano icône" class="ico"/>
+                            <img src="img/ico_game.svg" alt="Game icône" class="ico"/>
+                            <img src="img/ico_book.svg" alt="Livre icône" class="ico"/>
+                        </div>
+
+                        
+                    </div>
+
+
+
+            </div>
+            <div class="second-column-main">
+                <div class="switchpos">
+                    
+                    <label class="switch">
+                        <input type="checkbox" name="switcher">
+                        <span class="slider round"></span>
+                      </label>
+                </div>
+                <h2>Profile</h2>
+                <div class="profile">Etudiant en informatique ayant déjà effectué un stage à l'ONU recherche un stage en informatique Sécurité & Réseaux.</div>
+                <h2>Études</h2>
+                        <ul>
+                            <li>2019-2020 2ème bachelier, HEH, Mons, Informatique (réseau).</li>
+                            <li>2018–2019 1ère bachelier, HEH, Mons, Informatique.</li>
+                            <li>2017–2018 1ère bachelier, ECAM, Bruxelles, Ingénieur.</li>
+                            <li>2016-2017 1ère bachelier, ULB, Bruxelles, Physique.</li>
+                            <li>2015-2016 1ère bachelier, ESI, Bruxelles, Informatique.</li>
+                            <li>2014-2015 Qualification, Technicien en informatique.</li>
+                            <li>2014-2015 CESS, TQ.</li>
+                        </ul>
+                <h2>Expériences professionnelles</h2>
+                        <ul>
+                            <li>Juillet-Août 2017 Intendant, Scoutisme, Anderlecht.</li>
+                            <li>Juin-Juillet 2016 Plongeur, La Balbrière, Ottignies.</li>
+                            <li>Mars-Avril 2015 Stagiaire, Helpdesk, Nations unies (UNHCR) Bruxelles.</li>
+                        </ul>
+                <h2 >Projets en cours/terminés <span class="arrow-down" onclick="this.classList.toggle('active')"></span></h2>
+                    <div id="down">
+                        <ul>
+                            <li>BOT DOFUS <progress value="0" max="5"></progress></li>
+                            <li>SUDOKU PROJECT<progress value="5" max="5"></progress></li>
+                            <li>ARCHLINUX CUSTOM <progress value="3" max="5"></progress></li>
+                        </ul>
+                    </div>
+
+            </div>
+        </div>
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
